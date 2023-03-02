@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #000 url("./img/bg-programming.jpg") no-repeat scroll center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header > img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.header > h1 {
+    margin-top: 20px;
+    text-shadow: 2px 2px 2px black;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.main {
+    max-width: 440px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main > ul > li > a {
+    text-transform: uppercase;
+    display: flex;
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: all .2s ease-in-out;
+}
+
+.main > ul > li > a:hover {
+    background-color: lightblue;
+}
+
+.main > ul > li > a > i {
+    font-size: 1.4em;
+    color: greenyellow;
+    text-shadow: 1px 1px 2px black;
+}
+
+.main > ul > li > a > h3 {
+    flex-grow: 999;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer > a > i {
+    font-size: 30px;
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+.footer > a > i:hover {
+    color: lightblue;
+}
